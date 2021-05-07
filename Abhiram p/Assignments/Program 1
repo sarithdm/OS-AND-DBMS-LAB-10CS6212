@@ -1,0 +1,13 @@
+mkdir adir
+ls -lrt
+cd adir/
+pwd
+ls -lrt
+echo "this is a new file" > testfile.txt
+ls -lrt
+cat testfile.txt
+cp testfile.txt secondfile.txt
+ls -lrt
+cat testfile.txt
+cat secondfile.txt
+
