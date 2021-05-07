@@ -3,7 +3,7 @@ pwd
 echo "make a new diretory adir"
 mkdir adir
 echo "list the files in the current directory"
-ls -lrt | tail -n 5 
+ls -lrt   
 echo "change the directory to adir"
 cd adir
 echo "verify that you have moved to adir"
