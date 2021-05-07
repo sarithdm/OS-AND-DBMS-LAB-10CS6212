@@ -1,0 +1,3 @@
+echo "first lab"
+pwd
+
