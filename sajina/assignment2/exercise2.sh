@@ -8,7 +8,7 @@ clear
 echo "Rename secondfile to thefile."
 mv secondfile.txt thefile.txt
 echo "Issue the command to find out how large thefile is. How big is it"
-stat thefile.txt
+stat  thefile.txt
 echo "Copy thefile to your home directory"
 cp  thefile.txt ../assignment2/
 echo "Remove thefile from the current directory."
