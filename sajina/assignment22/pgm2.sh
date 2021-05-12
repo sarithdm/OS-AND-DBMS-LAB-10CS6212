@@ -4,8 +4,8 @@ ls
 clear
 mv secondfile.txt thefile.txt
 stat thefile.txt
-cp thefile.txt ../assignment20
+cp thefile.txt ../assignment22
 rm ../assignment1/thefile.txt
 ls
-cp ../assignment20/thefile.txt .
+cp ../assignment22/thefile.txt .
 ls
