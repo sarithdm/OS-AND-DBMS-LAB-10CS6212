@@ -1,2 +1,2 @@
-echo"HELLO"
+echo "hello"
 pwd
