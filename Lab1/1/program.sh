@@ -2,7 +2,7 @@
 
 #!/bin/bash
 CheckIfD(){
-	if [ -d "$1" ]
+	if [ -d "$1" ];
 	then 
 		echo "$1 is directory"
 	else
