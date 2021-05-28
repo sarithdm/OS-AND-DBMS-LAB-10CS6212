@@ -3,7 +3,7 @@ dir=0
 file=0
 for a in *;
 do
-	if [ -d "&a" ];
+	if [ -d "$a" ];
 	then
 		dir=$((dir+1))
 	else
