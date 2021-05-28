@@ -1,0 +1,11 @@
+#create a file hello.sh
+echo "echo "hello"" >hello.sh
+chmod 777 hello.sh
+if [ -x "hello.sh" ];
+then
+	echo "file 'hello.sh' exist and is executable"
+	echo "output of the file 'hello.sh' is"
+	sh hello.sh
+else
+	echo "file  doesnot exist"
+fi
