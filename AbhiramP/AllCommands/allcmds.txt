@@ -1,0 +1,23 @@
+pwd
+cd home
+pwd
+cd ..
+pwd
+cd ../..
+pwd
+cd /home/abhi/OS-AND-DBMS-LAB-10CS6212/AbhiramP
+ls -lrt
+mkdir dir1 dir2
+cd dir1
+echo "this is a textfile" > text1.txt
+echo "this is another textfile" > text2.txt
+cat t* > combined.txt
+cat combined.txt 
+cat t* >> combined.txt
+cat combined.txt
+mv combined.txt dir2
+cp dir2 combined.txt
+cp combined.txt backup_combined.txt
+cd ../
+rmdir dir2
+
