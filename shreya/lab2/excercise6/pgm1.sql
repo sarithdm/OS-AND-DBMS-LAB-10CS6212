@@ -1,0 +1,20 @@
+mysql> create database excercise;
+mysql> use excercise;
+mysql> create table student(Std_No int,Std_Name char(50),Maths char(50),Physics char(50),Chemistry char(50),Cprgm char(50),Department char(50),Address char(100));
+mysql> show tables;
+mysql>  describe student;
+mysql> insert into student values (100,'Hari',50,60,45,75,'CSE','Kasaragod');
+mysql> insert into student values (101,'Devi',60,55,78,40,'CSE','Kasaragod');
+mysql> insert into student values(102,'Sam',45,77,88,45,'IT','Kannur');
+mysql> insert into student values(103,'SreeHari',90,75,77,60,'IT','Calicut');
+mysql> insert into student values(104,'Rani',91,98,89,52,'ECE','Kannur');
+mysql> insert into student values(105,'Raj',88,77,67,48,'CSE','Palakkad');
+mysql>  select * from student;
+mysql> explain select *from student;
+mysql> explain select * from student where std_no=102;
+mysql> select * from student where std_no =102;
+mysql>  select std_no,department from student where department='cse' ;
+mysql> explain  select std_no,department from student where department='cse' ;
+mysql> select avg(chemistry) from student;
+mysql> explain select avg(chemistry) from student;
+

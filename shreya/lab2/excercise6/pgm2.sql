@@ -1,0 +1,15 @@
+create table cust_details(acc_no int , acc_type char(50), name char(50), address char(50), balance int);
+ show tables;
+mysql> insert into cust_details values(1001,'saving','sujith','kasaragod',20000);
+mysql> insert into cust_details values(1002,'saving','sam','kannur',30000);
+mysql> insert into cust_details values(1003,'current','sree','calicut',40000);
+mysql> insert into cust_details values(2001,'loan','loan of sam','kannur',0);
+mysql> insert into cust_details values(2002,'loan','loan of sujith','kasaragod',0);
+mysql> select * from cust_details;
+mysql> insert into cust_details values(2003,'loan','ram','kasaragod',0);
+mysql> commit;
+mysql> select * from cust_details;
+mysql> set autocommit =0;
+mysql> insert into cust_details values(2003,'savings','raju','kasaragod',10000);
+mysql> rollback;
+mysql> select * from cust_details;
