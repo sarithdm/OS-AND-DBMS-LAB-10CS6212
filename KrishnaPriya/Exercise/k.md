@@ -1,0 +1,4 @@
+kri
+shnp
+riyk
+priy
