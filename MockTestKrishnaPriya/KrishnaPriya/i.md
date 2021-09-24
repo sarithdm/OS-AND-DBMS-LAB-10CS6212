@@ -1,2 +1,0 @@
-krishnap
-ri

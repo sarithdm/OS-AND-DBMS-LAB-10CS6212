@@ -1,4 +1,0 @@
-kpp
-rishn
-kri
-ishn
