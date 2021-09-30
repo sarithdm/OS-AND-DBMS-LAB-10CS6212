@@ -1,0 +1,13 @@
+#COUNT LINES
+#praveena
+#KSD20CSCF07
+wc -l a.txt b.dat c.txt d.md e.txt f.dat g.txt h.txt i.md j.md k.txt l.txt m.dat n.txt o.txt p.txt  q.txt r.md
+INPUT:
+
+#RENAME
+#praveena
+#KSD20CSCF07
+for f in *.txt; do
+              mv -- "$f" "${f%.txt}.dat"
+ done
+        
