@@ -1,3 +1,0 @@
-kp
-kri
-priya

@@ -1,2 +1,0 @@
-krish
-napr

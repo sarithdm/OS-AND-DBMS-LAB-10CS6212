@@ -1,2 +1,0 @@
-kppprt kri
-shn

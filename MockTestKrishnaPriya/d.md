@@ -1,1 +1,0 @@
-kri sh na
