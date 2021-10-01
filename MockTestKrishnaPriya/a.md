@@ -1,4 +1,0 @@
-kri
-shn
-apr
-ya
